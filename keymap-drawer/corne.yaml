@@ -1,14 +1,14 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
-    Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, RAI, '$$mdi:apple-keyboard-option$$']
-  LOW:
+  BASE: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
+    Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LEFT, ENTER, ␣, RIGHT, '$$mdi:apple-keyboard-option$$']
+  LEFT:
   - ↹
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ↑
   - {t: ▽, type: trans}
-  - BT CLR
+  - Gui+Sft+5
   - +
   - '1'
   - '2'
@@ -20,7 +20,7 @@ layers:
   - ←
   - ↓
   - →
-  - {t: ▽, type: trans}
+  - Ctl+Gui+Sft+4
   - '-'
   - '4'
   - '5'
@@ -41,11 +41,11 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
   - {type: held}
+  - ENTER
   - ␣
-  - ⏎
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
-  RAI:
+  RIGHT:
   - ↹
   - '!'
   - '@'
@@ -84,7 +84,53 @@ layers:
   - '='
   - $$mdi:apple-keyboard-command$$
   - '&studio_unlock'
+  - ENTER
   - ␣
-  - ⏎
   - {t: '&studio_unlock', type: held}
   - $$mdi:apple-keyboard-option$$
+  CONFIG:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BRI DEC
+  - BRIGHTNESS INC
+  - VOLUME DOWN
+  - VOLUME UP
+  - MUTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+combos:
+- p: [13, 15, 37, 27]
+  k: A
