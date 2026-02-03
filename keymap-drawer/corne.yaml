@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
+  BASE: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ':', '''', '$$mdi:apple-keyboard-shift$$',
     Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LEFT, ENTER, ␣, RIGHT, '$$mdi:apple-keyboard-option$$']
   LEFT:
   - ↹
@@ -63,7 +63,7 @@ layers:
   - \
   - '|'
   - '`'
-  - {t: ▽, type: trans}
+  - ;
   - '-'
   - '['
   - '{'
