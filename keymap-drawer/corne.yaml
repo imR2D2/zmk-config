@@ -1,13 +1,13 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ':', '''', '$$mdi:apple-keyboard-shift$$',
+  BASE: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-shift$$', A, S, D, F, G, H, J, K, L, ':', '''', '$$mdi:apple-keyboard-control$$',
     Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LEFT, ENTER, ␣, RIGHT, '$$mdi:apple-keyboard-option$$']
   LEFT:
   - ↹
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+-
   - ↑
-  - {t: ▽, type: trans}
+  - Gui++
   - Gui+Sft+5
   - +
   - '1'
@@ -15,8 +15,8 @@ layers:
   - '3'
   - '*'
   - $$mdi:backspace-outline$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - Gui+'
   - ←
   - ↓
   - →
@@ -27,12 +27,12 @@ layers:
   - '6'
   - /
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
+  - $$mdi:apple-keyboard-control$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '='
   - '7'
   - '8'
@@ -58,7 +58,7 @@ layers:
   - (
   - )
   - $$mdi:backspace-outline$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - '~'
   - \
   - '|'
@@ -70,7 +70,7 @@ layers:
   - '}'
   - ']'
   - +
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,11 +114,11 @@ layers:
   - Ctl+Alt+;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
