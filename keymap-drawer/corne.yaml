@@ -28,10 +28,10 @@ layers:
   - /
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-control$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+DOWN ARROW
+  - Gui+UP ARROW
+  - Gui+LEFT ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - '='
   - '7'
