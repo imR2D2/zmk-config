@@ -78,10 +78,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans         &trans                &trans             &trans           &trans          &trans  &trans         &kp LC(LA(I))  &trans         &trans                 &trans
-&trans  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE      &trans  &kp LC(LA(J))  &kp LC(LA(K))  &kp LC(LA(L))  &kp LC(LA(SEMICOLON))  &trans
-&trans  &bt BT_SEL 0   &bt BT_SEL 1          &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4    &trans  &trans         &trans         &trans         &trans                 &trans
-                                             &trans             &trans           &trans          &trans  &trans         &trans
+&trans          &trans         &trans                &trans             &trans           &trans          &trans  &trans         &kp LC(LA(I))  &trans         &trans                 &trans
+&bt BT_CLR_ALL  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE      &trans  &kp LC(LA(J))  &kp LC(LA(K))  &kp LC(LA(L))  &kp LC(LA(SEMICOLON))  &trans
+&bt BT_CLR      &bt BT_SEL 0   &bt BT_SEL 1          &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4    &trans  &trans         &trans         &trans         &trans                 &trans
+                                                     &trans             &trans           &trans          &trans  &trans         &trans
             >;
 
             label = "CONFIG";

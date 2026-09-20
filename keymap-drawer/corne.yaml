@@ -101,7 +101,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - BRI DEC
   - BRIGHTNESS INC
   - VOLUME DOWN
@@ -113,7 +113,7 @@ layers:
   - Ctl+Alt+L
   - Ctl+Alt+;
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
   - BT 1
   - BT 2
   - BT 3
