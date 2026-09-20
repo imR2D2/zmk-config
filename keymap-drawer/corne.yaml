@@ -4,7 +4,7 @@ layers:
     Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LEFT, ENTER, ␣, RIGHT, '$$mdi:apple-keyboard-option$$']
   LEFT:
   - ↹
-  - {t: ▽, type: trans}
+  - Caps Word
   - Gui+-
   - ↑
   - Gui++
@@ -32,7 +32,7 @@ layers:
   - Gui+UP ARROW
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
+  - Caps Lock
   - '='
   - '7'
   - '8'
